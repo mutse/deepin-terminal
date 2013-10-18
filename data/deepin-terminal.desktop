@@ -1,0 +1,31 @@
+[Desktop Entry]
+Name=Deepin Terminal
+Name[zh_CN]=深度终端
+Name[zh_HK]=深度終端機
+Name[zh_TW]=深度終端機
+Comment=Use the command line
+Comment[zh_CN]=使用命令行
+Comment[zh_HK]=使用命令列
+Comment[zh_TW]=使用命令列
+Keywords=shell;prompt;command;commandline;
+Keywords[zh_CN]=shell;prompt;command;commandline;命令;提示符;命令行;
+Keywords[zh_HK]=shell;prompt;command;commandline;提示;指令;命令列;
+Keywords[zh_TW]=shell;prompt;command;commandline;提示;指令;命令列;
+TryExec=deepin-terminal
+Exec=deepin-terminal
+Icon=deepin-terminal
+Type=Application
+Categories=GNOME;GTK;Utility;System;TerminalEmulator;
+StartupNotify=true
+
+[NewWindow Shortcut Group]
+Name=New Window
+Name[zh_CN]=新建窗口
+Name[zh_TW]=開新視窗
+Exec=deepin-terminal
+
+[NewQuake Shortcut Group]
+Name=New Quake Window 
+Name[zh_CN]=新建雷神窗口
+Name[zh_TW]=新建雷神窗口
+Exec=deepin-terminal --quake-mode

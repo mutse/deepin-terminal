@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: deepin-terminal
+Version: 1.0
+Summary: Deepin Terminal based on python-vte
+Home-page: https://github.com/linuxdeepin/deepin-terminal
+Author: Wang Yong
+Author-email: lazycat.manatee@gmail.com
+License: GNU GPL
+Description: UNKNOWN
+Platform: linux

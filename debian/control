@@ -1,0 +1,14 @@
+Source: deepin-terminal
+Maintainer: Wang Yong <lazycat.manatee@gmail.com>
+Section: utils
+Priority: extra
+Build-Depends: intltool, dh-translations, python-setuptools (>= 0.6b3), python-dev, python-distutils-extra, debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+Homepage: http://www.linuxdeepin.com/
+
+Package: deepin-terminal
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-vte, deepin-ui (>=1+git201209101328)
+Description: Deepin Terminal based on python-vte
+ This is a new generation terminal emulator made by linuxdeepin team.
+ Depends on Deepin-UI.

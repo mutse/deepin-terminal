@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from deepinterminal.main import Terminal
+import sys
+
+if __name__ == "__main__":
+	quake_mode = "--quake-mode" in sys.argv
+	if (not quake_mode) or (not is_exists(APP_DBUS_NAME, APP_OBJECT_NAME)):
+		Terminal(quake_mode).run()
